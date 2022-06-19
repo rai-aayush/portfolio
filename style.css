@@ -12,9 +12,14 @@ body{
     cursor: pointer;
 }
 
+.intro{
+    padding: 40px;
+
+}
+
 span{
     color: red;
-    
+
 }
 
 nav{
@@ -25,4 +30,21 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 
+}
+
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition: .4s;
 }
